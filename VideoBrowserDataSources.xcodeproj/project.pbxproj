@@ -8,8 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0DC3080F1F127DAD00200497 /* VideoBrowserDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC308051F127DAC00200497 /* VideoBrowserDataSources.framework */; };
-		0DC308141F127DAD00200497 /* VideoBrowserDataSourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308131F127DAD00200497 /* VideoBrowserDataSourcesTests.swift */; };
-		0DC308161F127DAD00200497 /* VideoBrowserDataSources.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC308081F127DAC00200497 /* VideoBrowserDataSources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DC308221F127E2300200497 /* VideoDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3081F1F127E2300200497 /* VideoDataItem.swift */; };
+		0DC308231F127E2300200497 /* VideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* VideoJSONFeed.swift */; };
+		0DC308241F127E2300200497 /* VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308211F127E2300200497 /* VideoJSONParser.swift */; };
+		0DC308261F128A7700200497 /* VideoDataItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308251F128A7700200497 /* VideoDataItemTest.swift */; };
+		0DC308281F12ABBD00200497 /* ImageURLDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308271F12ABBD00200497 /* ImageURLDetails.swift */; };
+		0DC3082A1F12ABE800200497 /* URLImageResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308291F12ABE800200497 /* URLImageResolution.swift */; };
+		0DC3082C1F12AC1A00200497 /* ImageURLDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */; };
+		0DC3082E1F12ADF000200497 /* URLImageResoltionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082D1F12ADF000200497 /* URLImageResoltionTests.swift */; };
+		0DC308301F12B34D00200497 /* VideoDataItemGetImageURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082F1F12B34D00200497 /* VideoDataItemGetImageURLTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +31,18 @@
 
 /* Begin PBXFileReference section */
 		0DC308051F127DAC00200497 /* VideoBrowserDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBrowserDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DC308081F127DAC00200497 /* VideoBrowserDataSources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoBrowserDataSources.h; sourceTree = "<group>"; };
 		0DC308091F127DAC00200497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC3080E1F127DAD00200497 /* VideoBrowserDataSourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBrowserDataSourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DC308131F127DAD00200497 /* VideoBrowserDataSourcesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBrowserDataSourcesTests.swift; sourceTree = "<group>"; };
 		0DC308151F127DAD00200497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC3081F1F127E2300200497 /* VideoDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataItem.swift; sourceTree = "<group>"; };
+		0DC308201F127E2300200497 /* VideoJSONFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoJSONFeed.swift; sourceTree = "<group>"; };
+		0DC308211F127E2300200497 /* VideoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoJSONParser.swift; sourceTree = "<group>"; };
+		0DC308251F128A7700200497 /* VideoDataItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataItemTest.swift; sourceTree = "<group>"; };
+		0DC308271F12ABBD00200497 /* ImageURLDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageURLDetails.swift; sourceTree = "<group>"; };
+		0DC308291F12ABE800200497 /* URLImageResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageResolution.swift; sourceTree = "<group>"; };
+		0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageURLDetailsTests.swift; sourceTree = "<group>"; };
+		0DC3082D1F12ADF000200497 /* URLImageResoltionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageResoltionTests.swift; sourceTree = "<group>"; };
+		0DC3082F1F12B34D00200497 /* VideoDataItemGetImageURLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataItemGetImageURLTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +85,11 @@
 		0DC308071F127DAC00200497 /* VideoBrowserDataSources */ = {
 			isa = PBXGroup;
 			children = (
-				0DC308081F127DAC00200497 /* VideoBrowserDataSources.h */,
+				0DC3081F1F127E2300200497 /* VideoDataItem.swift */,
+				0DC308271F12ABBD00200497 /* ImageURLDetails.swift */,
+				0DC308291F12ABE800200497 /* URLImageResolution.swift */,
+				0DC308201F127E2300200497 /* VideoJSONFeed.swift */,
+				0DC308211F127E2300200497 /* VideoJSONParser.swift */,
 				0DC308091F127DAC00200497 /* Info.plist */,
 			);
 			path = VideoBrowserDataSources;
@@ -80,8 +98,11 @@
 		0DC308121F127DAD00200497 /* VideoBrowserDataSourcesTests */ = {
 			isa = PBXGroup;
 			children = (
-				0DC308131F127DAD00200497 /* VideoBrowserDataSourcesTests.swift */,
 				0DC308151F127DAD00200497 /* Info.plist */,
+				0DC308251F128A7700200497 /* VideoDataItemTest.swift */,
+				0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */,
+				0DC3082D1F12ADF000200497 /* URLImageResoltionTests.swift */,
+				0DC3082F1F12B34D00200497 /* VideoDataItemGetImageURLTests.swift */,
 			);
 			path = VideoBrowserDataSourcesTests;
 			sourceTree = "<group>";
@@ -93,7 +114,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC308161F127DAD00200497 /* VideoBrowserDataSources.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,11 +169,13 @@
 					0DC308041F127DAC00200497 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = EF4UQ57PCN;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0DC3080D1F127DAD00200497 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = EF4UQ57PCN;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -198,6 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC308281F12ABBD00200497 /* ImageURLDetails.swift in Sources */,
+				0DC308221F127E2300200497 /* VideoDataItem.swift in Sources */,
+				0DC308241F127E2300200497 /* VideoJSONParser.swift in Sources */,
+				0DC308231F127E2300200497 /* VideoJSONFeed.swift in Sources */,
+				0DC3082A1F12ABE800200497 /* URLImageResolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC308141F127DAD00200497 /* VideoBrowserDataSourcesTests.swift in Sources */,
+				0DC3082C1F12AC1A00200497 /* ImageURLDetailsTests.swift in Sources */,
+				0DC3082E1F12ADF000200497 /* URLImageResoltionTests.swift in Sources */,
+				0DC308261F128A7700200497 /* VideoDataItemTest.swift in Sources */,
+				0DC308301F12B34D00200497 /* VideoDataItemGetImageURLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +351,7 @@
 		0DC3081A1F127DAD00200497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -335,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -342,6 +374,7 @@
 		0DC3081B1F127DAD00200497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -363,12 +396,15 @@
 		0DC3081D1F127DAD00200497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -376,6 +412,8 @@
 		0DC3081E1F127DAD00200497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
