@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA0CBC21F1430FC0035BEE5 /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
+		0DA0CBC31F1430FC0035BEE5 /* testVideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */; };
+		0DA0CBC41F1430FC0035BEE5 /* VideoItemStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC11F1430FC0035BEE5 /* VideoItemStoreTests.swift */; };
+		0DA0CBC61F1431F40035BEE5 /* TestFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC51F1431F40035BEE5 /* TestFeed.json */; };
 		0DC3080F1F127DAD00200497 /* VideoBrowserDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC308051F127DAC00200497 /* VideoBrowserDataSources.framework */; };
 		0DC308221F127E2300200497 /* VideoDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3081F1F127E2300200497 /* VideoDataItem.swift */; };
 		0DC308231F127E2300200497 /* VideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* VideoJSONFeed.swift */; };
@@ -30,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testVideoJSONFeed.swift; sourceTree = "<group>"; };
+		0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testVideoJSONParser.swift; sourceTree = "<group>"; };
+		0DA0CBC11F1430FC0035BEE5 /* VideoItemStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoItemStoreTests.swift; sourceTree = "<group>"; };
+		0DA0CBC51F1431F40035BEE5 /* TestFeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestFeed.json; sourceTree = "<group>"; };
 		0DC308051F127DAC00200497 /* VideoBrowserDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBrowserDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC308091F127DAC00200497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC3080E1F127DAD00200497 /* VideoBrowserDataSourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBrowserDataSourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +106,10 @@
 		0DC308121F127DAD00200497 /* VideoBrowserDataSourcesTests */ = {
 			isa = PBXGroup;
 			children = (
+				0DA0CBC51F1431F40035BEE5 /* TestFeed.json */,
+				0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */,
+				0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */,
+				0DA0CBC11F1430FC0035BEE5 /* VideoItemStoreTests.swift */,
 				0DC308151F127DAD00200497 /* Info.plist */,
 				0DC308251F128A7700200497 /* VideoDataItemTest.swift */,
 				0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */,
@@ -210,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA0CBC61F1431F40035BEE5 /* TestFeed.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA0CBC41F1430FC0035BEE5 /* VideoItemStoreTests.swift in Sources */,
+				0DA0CBC21F1430FC0035BEE5 /* testVideoJSONFeed.swift in Sources */,
 				0DC3082C1F12AC1A00200497 /* ImageURLDetailsTests.swift in Sources */,
+				0DA0CBC31F1430FC0035BEE5 /* testVideoJSONParser.swift in Sources */,
 				0DC3082E1F12ADF000200497 /* URLImageResoltionTests.swift in Sources */,
 				0DC308261F128A7700200497 /* VideoDataItemTest.swift in Sources */,
 				0DC308301F12B34D00200497 /* VideoDataItemGetImageURLTests.swift in Sources */,
@@ -443,6 +459,7 @@
 				0DC3081B1F127DAD00200497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DC3081C1F127DAD00200497 /* Build configuration list for PBXNativeTarget "VideoBrowserDataSourcesTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +468,7 @@
 				0DC3081E1F127DAD00200497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
