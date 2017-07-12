@@ -23,6 +23,9 @@ class testVideoJSONParser: XCTestCase {
         let videoJSONParser = VideoJSONParser(from: testJSON)!
         XCTAssertEqual("Chelsea v Sunderland", videoJSONParser.videoDataItems.first?.title)
         XCTAssertEqual("Highlights of the Premier League match between Chelsea and Sunderland from Stamford Bridge.", videoJSONParser.videoDataItems.first?.synopsis)
+        XCTAssertEqual("Sky Sports", videoJSONParser.videoDataItems.first?.broadcastChannel)
+        
+        
     }
 
     func testTwoRealItems() {
