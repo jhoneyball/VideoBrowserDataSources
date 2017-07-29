@@ -23,9 +23,9 @@ class test_VideoDataItem: XCTestCase {
         XCTAssertEqual("The title", sut.title)
         XCTAssertEqual("The synopsis", sut.synopsis)
         XCTAssertEqual("The broadcast channel", sut.broadcastChannel)
-        XCTAssertEqual(1, sut.imageURLsCount)
+        XCTAssertEqual(1, sut.imageURLs.count)
 
-        let sutImageURLDetails = sut.getImageURL(for: URLImageResolution(123))
+        let sutImageURLDetails = sut.imageURLs.first!
         XCTAssertEqual(123, sutImageURLDetails.resolution.pixels)
         XCTAssertEqual("The image url", sutImageURLDetails.url)
     }
@@ -43,17 +43,17 @@ class test_VideoDataItem: XCTestCase {
                                                      broadcastChannel: "The broadcast channel",
                                                      imageURLs: sutImageURLs)
 
-        XCTAssertEqual(3, sut.imageURLsCount)
+        XCTAssertEqual(3, sut.imageURLs.count)
 
-        let sutFirstImageURL = sut.getImageURL(for: URLImageResolution(123))
+        let sutFirstImageURL = sut.imageURLs[0]
         XCTAssertEqual("The first image url", sutFirstImageURL.url)
         XCTAssertEqual(123, sutFirstImageURL.resolution.pixels)
 
-        let sutSecondImageURL = sut.getImageURL(for: URLImageResolution(246))
+        let sutSecondImageURL = sut.imageURLs[1]
         XCTAssertEqual("The second image url", sutSecondImageURL.url)
         XCTAssertEqual(246, sutSecondImageURL.resolution.pixels)
         
-        let sutThirdImageURL = sut.getImageURL(for: URLImageResolution(999))
+        let sutThirdImageURL = sut.imageURLs[2]
         XCTAssertEqual("The third image url", sutThirdImageURL.url)
         XCTAssertEqual(999, sutThirdImageURL.resolution.pixels)
 

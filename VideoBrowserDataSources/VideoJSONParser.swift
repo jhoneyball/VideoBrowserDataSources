@@ -46,7 +46,7 @@ private func videoItemToVideoDataItem(_ videoItem: [String: Any]) -> VideoDataIt
                 if let width = image["width"] as? Int {
                     let height = image["height"] as? Int ?? 0
                     let url = image["url"] as? String ?? ""
-                    let imageURLDetails = ImageURLDetails(url: url, resolution: URLImageResolution(horizontalPixels: height, verticalPixels: width))
+                    let imageURLDetails = ImageURLDetails(url: url, resolution: URLImageResolution(horizontalPixels: width, verticalPixels: height))
                     imageSizesAndURLs.append(imageURLDetails)
                 }
             }

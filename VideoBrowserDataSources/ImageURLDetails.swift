@@ -1,5 +1,5 @@
 
 public struct ImageURLDetails {
-    let url: String
-    let resolution: URLImageResolution
+    public let url: String
+    public let resolution: URLImageResolution
 }
