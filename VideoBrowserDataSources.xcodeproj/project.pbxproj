@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0D09C41F4095410050276F /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
 		0DA0CBC21F1430FC0035BEE5 /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
 		0DA0CBC31F1430FC0035BEE5 /* testVideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */; };
 		0DA0CBC61F1431F40035BEE5 /* TestFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC51F1431F40035BEE5 /* TestFeed.json */; };
@@ -17,7 +18,6 @@
 		0DA0CC191F1BDB4C0035BEE5 /* VideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* VideoJSONFeed.swift */; };
 		0DA0CC1A1F1BDB4C0035BEE5 /* VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308211F127E2300200497 /* VideoJSONParser.swift */; };
 		0DA0CC1B1F1BDB720035BEE5 /* TestFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC51F1431F40035BEE5 /* TestFeed.json */; };
-		0DA0CC1C1F1BDB720035BEE5 /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
 		0DA0CC1D1F1BDB720035BEE5 /* testVideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */; };
 		0DA0CC1E1F1BDB720035BEE5 /* VideoDataItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308251F128A7700200497 /* VideoDataItemTest.swift */; };
 		0DA0CC1F1F1BDB720035BEE5 /* ImageURLDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */; };
@@ -250,12 +250,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "James Honeyball";
 				TargetAttributes = {
 					0DA0CBFE1F1BDAC70035BEE5 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = EF4UQ57PCN;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					0DA0CC061F1BDAC70035BEE5 = {
@@ -266,13 +267,13 @@
 					0DC308041F127DAC00200497 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = EF4UQ57PCN;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					0DC3080D1F127DAD00200497 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = EF4UQ57PCN;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -347,10 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0D09C41F4095410050276F /* testVideoJSONFeed.swift in Sources */,
 				0DA0CC1F1F1BDB720035BEE5 /* ImageURLDetailsTests.swift in Sources */,
 				0DA0CC1D1F1BDB720035BEE5 /* testVideoJSONParser.swift in Sources */,
 				0DA0CC201F1BDB720035BEE5 /* URLImageResoltionTests.swift in Sources */,
-				0DA0CC1C1F1BDB720035BEE5 /* testVideoJSONFeed.swift in Sources */,
 				0DA0CC1E1F1BDB720035BEE5 /* VideoDataItemTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -409,11 +410,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSources;
 				PRODUCT_NAME = VideoBrowserDataSources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -422,7 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -432,11 +434,12 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSources;
 				PRODUCT_NAME = VideoBrowserDataSources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -451,10 +454,10 @@
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -467,10 +470,10 @@
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesiOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -485,7 +488,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -493,7 +498,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -524,6 +533,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -539,7 +549,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -547,7 +559,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -570,6 +586,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -594,7 +611,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -616,7 +634,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -632,7 +651,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -647,7 +667,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.honeyball.VideoBrowserDataSourcesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

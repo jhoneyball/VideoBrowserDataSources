@@ -1,10 +1,9 @@
-
 import XCTest
 @testable import VideoBrowserDataSources
 
 
 class URLImageResoltionTests: XCTestCase {
-
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -14,7 +13,7 @@ class URLImageResoltionTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-
+    
     func testAURLImageResolutionCreatedWithASingleInt() {
         let sut: URLImageResolution = URLImageResolution(1920)
         XCTAssertEqual(1920, sut.pixels)
@@ -29,5 +28,6 @@ class URLImageResoltionTests: XCTestCase {
         XCTAssertEqual(720, sut.verticalPixels)
     }
     
-
+    
 }
+

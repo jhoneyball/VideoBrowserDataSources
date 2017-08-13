@@ -15,14 +15,14 @@ class testVideoJSONFeed: XCTestCase {
         let videoJSONFeed = VideoJSONFeed(fromFile: "NoFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
         XCTAssertNil(videoJSONFeed)
     }
-
+    
     
     func testVideoJSONFeedExistance() {
         
         let videoJSONFeed = VideoJSONFeed(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
         XCTAssertNotNil(videoJSONFeed)
     }
-
+    
     func testVideoJSONFeedContainsValidJSON() {
         if let videoJSONFeed = VideoJSONFeed(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!) {
             let jsonStringData: Data = videoJSONFeed.theJSONData
@@ -37,4 +37,3 @@ class testVideoJSONFeed: XCTestCase {
         }
     }
 }
-
