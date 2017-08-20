@@ -9,23 +9,23 @@ import Foundation
 import XCTest
 @testable import VideoBrowserDataSources
 
-class testVideoJSONFeed: XCTestCase {
-    func testVideoJSONFeedFailsToLoad() {
+class test_DataFromBundleFile: XCTestCase {
+    func test_DataFromBundleFile_FailsToLoad() {
         
-        let videoJSONFeed = VideoJSONFeed(fromFile: "NoFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
+        let videoJSONFeed = DataFromBundleFile(fromFile: "NoFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
         XCTAssertNil(videoJSONFeed)
     }
     
     
-    func testVideoJSONFeedExistance() {
+    func test_DataFromBundleFile_OpensValidFile() {
         
-        let videoJSONFeed = VideoJSONFeed(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
+        let videoJSONFeed = DataFromBundleFile(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!)
         XCTAssertNotNil(videoJSONFeed)
     }
     
     func testVideoJSONFeedContainsValidJSON() {
-        if let videoJSONFeed = VideoJSONFeed(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!) {
-            let jsonStringData: Data = videoJSONFeed.theJSONData
+        if let dataFromBundleFile = DataFromBundleFile(fromFile: "TestFeed", ofType: "json", in: Bundle(identifier: "com.honeyball.VideoBrowserDataSourcesTests")!) {
+            let jsonStringData: Data = dataFromBundleFile.data
             do {
                 let jsonObject = try JSONSerialization.jsonObject(with: jsonStringData, options: [])
                 XCTAssertNotNil(jsonObject)
@@ -34,6 +34,7 @@ class testVideoJSONFeed: XCTestCase {
             }
         } else {
             XCTFail()
+            
         }
     }
 }

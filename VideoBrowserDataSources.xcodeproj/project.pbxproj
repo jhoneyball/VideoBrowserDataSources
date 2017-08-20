@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D0D09C41F4095410050276F /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
-		0DA0CBC21F1430FC0035BEE5 /* testVideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */; };
-		0DA0CBC31F1430FC0035BEE5 /* testVideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */; };
+		0D0D09C41F4095410050276F /* test_DataFromBundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* test_DataFromBundleFile.swift */; };
+		0DA0CBC21F1430FC0035BEE5 /* test_DataFromBundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBBF1F1430FC0035BEE5 /* test_DataFromBundleFile.swift */; };
+		0DA0CBC31F1430FC0035BEE5 /* test_VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* test_VideoJSONParser.swift */; };
 		0DA0CBC61F1431F40035BEE5 /* TestFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC51F1431F40035BEE5 /* TestFeed.json */; };
 		0DA0CC081F1BDAC70035BEE5 /* VideoBrowserDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA0CBFF1F1BDAC70035BEE5 /* VideoBrowserDataSources.framework */; };
 		0DA0CC161F1BDB4C0035BEE5 /* VideoDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3081F1F127E2300200497 /* VideoDataItem.swift */; };
 		0DA0CC171F1BDB4C0035BEE5 /* ImageURLDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308271F12ABBD00200497 /* ImageURLDetails.swift */; };
 		0DA0CC181F1BDB4C0035BEE5 /* URLImageResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308291F12ABE800200497 /* URLImageResolution.swift */; };
-		0DA0CC191F1BDB4C0035BEE5 /* VideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* VideoJSONFeed.swift */; };
+		0DA0CC191F1BDB4C0035BEE5 /* DataFromBundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* DataFromBundleFile.swift */; };
 		0DA0CC1A1F1BDB4C0035BEE5 /* VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308211F127E2300200497 /* VideoJSONParser.swift */; };
 		0DA0CC1B1F1BDB720035BEE5 /* TestFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC51F1431F40035BEE5 /* TestFeed.json */; };
-		0DA0CC1D1F1BDB720035BEE5 /* testVideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */; };
+		0DA0CC1D1F1BDB720035BEE5 /* test_VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0CBC01F1430FC0035BEE5 /* test_VideoJSONParser.swift */; };
 		0DA0CC1E1F1BDB720035BEE5 /* VideoDataItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308251F128A7700200497 /* VideoDataItemTest.swift */; };
 		0DA0CC1F1F1BDB720035BEE5 /* ImageURLDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */; };
 		0DA0CC201F1BDB720035BEE5 /* URLImageResoltionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3082D1F12ADF000200497 /* URLImageResoltionTests.swift */; };
 		0DC3080F1F127DAD00200497 /* VideoBrowserDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC308051F127DAC00200497 /* VideoBrowserDataSources.framework */; };
 		0DC308221F127E2300200497 /* VideoDataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3081F1F127E2300200497 /* VideoDataItem.swift */; };
-		0DC308231F127E2300200497 /* VideoJSONFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* VideoJSONFeed.swift */; };
+		0DC308231F127E2300200497 /* DataFromBundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308201F127E2300200497 /* DataFromBundleFile.swift */; };
 		0DC308241F127E2300200497 /* VideoJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308211F127E2300200497 /* VideoJSONParser.swift */; };
 		0DC308261F128A7700200497 /* VideoDataItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308251F128A7700200497 /* VideoDataItemTest.swift */; };
 		0DC308281F12ABBD00200497 /* ImageURLDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC308271F12ABBD00200497 /* ImageURLDetails.swift */; };
@@ -51,8 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testVideoJSONFeed.swift; sourceTree = "<group>"; };
-		0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testVideoJSONParser.swift; sourceTree = "<group>"; };
+		0DA0CBBF1F1430FC0035BEE5 /* test_DataFromBundleFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test_DataFromBundleFile.swift; sourceTree = "<group>"; };
+		0DA0CBC01F1430FC0035BEE5 /* test_VideoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test_VideoJSONParser.swift; sourceTree = "<group>"; };
 		0DA0CBC51F1431F40035BEE5 /* TestFeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestFeed.json; sourceTree = "<group>"; };
 		0DA0CBFF1F1BDAC70035BEE5 /* VideoBrowserDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoBrowserDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA0CC071F1BDAC70035BEE5 /* VideoBrowserDataSourcesiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBrowserDataSourcesiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +61,7 @@
 		0DC3080E1F127DAD00200497 /* VideoBrowserDataSourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBrowserDataSourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC308151F127DAD00200497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC3081F1F127E2300200497 /* VideoDataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataItem.swift; sourceTree = "<group>"; };
-		0DC308201F127E2300200497 /* VideoJSONFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoJSONFeed.swift; sourceTree = "<group>"; };
+		0DC308201F127E2300200497 /* DataFromBundleFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFromBundleFile.swift; sourceTree = "<group>"; };
 		0DC308211F127E2300200497 /* VideoJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoJSONParser.swift; sourceTree = "<group>"; };
 		0DC308251F128A7700200497 /* VideoDataItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDataItemTest.swift; sourceTree = "<group>"; };
 		0DC308271F12ABBD00200497 /* ImageURLDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageURLDetails.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				0DC3081F1F127E2300200497 /* VideoDataItem.swift */,
 				0DC308271F12ABBD00200497 /* ImageURLDetails.swift */,
 				0DC308291F12ABE800200497 /* URLImageResolution.swift */,
-				0DC308201F127E2300200497 /* VideoJSONFeed.swift */,
+				0DC308201F127E2300200497 /* DataFromBundleFile.swift */,
 				0DC308211F127E2300200497 /* VideoJSONParser.swift */,
 				0DC308091F127DAC00200497 /* Info.plist */,
 			);
@@ -141,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				0DA0CBC51F1431F40035BEE5 /* TestFeed.json */,
-				0DA0CBBF1F1430FC0035BEE5 /* testVideoJSONFeed.swift */,
-				0DA0CBC01F1430FC0035BEE5 /* testVideoJSONParser.swift */,
+				0DA0CBBF1F1430FC0035BEE5 /* test_DataFromBundleFile.swift */,
+				0DA0CBC01F1430FC0035BEE5 /* test_VideoJSONParser.swift */,
 				0DC308251F128A7700200497 /* VideoDataItemTest.swift */,
 				0DC3082B1F12AC1A00200497 /* ImageURLDetailsTests.swift */,
 				0DC3082D1F12ADF000200497 /* URLImageResoltionTests.swift */,
@@ -340,7 +340,7 @@
 				0DA0CC161F1BDB4C0035BEE5 /* VideoDataItem.swift in Sources */,
 				0DA0CC181F1BDB4C0035BEE5 /* URLImageResolution.swift in Sources */,
 				0DA0CC1A1F1BDB4C0035BEE5 /* VideoJSONParser.swift in Sources */,
-				0DA0CC191F1BDB4C0035BEE5 /* VideoJSONFeed.swift in Sources */,
+				0DA0CC191F1BDB4C0035BEE5 /* DataFromBundleFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0D09C41F4095410050276F /* testVideoJSONFeed.swift in Sources */,
+				0D0D09C41F4095410050276F /* test_DataFromBundleFile.swift in Sources */,
 				0DA0CC1F1F1BDB720035BEE5 /* ImageURLDetailsTests.swift in Sources */,
-				0DA0CC1D1F1BDB720035BEE5 /* testVideoJSONParser.swift in Sources */,
+				0DA0CC1D1F1BDB720035BEE5 /* test_VideoJSONParser.swift in Sources */,
 				0DA0CC201F1BDB720035BEE5 /* URLImageResoltionTests.swift in Sources */,
 				0DA0CC1E1F1BDB720035BEE5 /* VideoDataItemTest.swift in Sources */,
 			);
@@ -363,7 +363,7 @@
 				0DC308281F12ABBD00200497 /* ImageURLDetails.swift in Sources */,
 				0DC308221F127E2300200497 /* VideoDataItem.swift in Sources */,
 				0DC308241F127E2300200497 /* VideoJSONParser.swift in Sources */,
-				0DC308231F127E2300200497 /* VideoJSONFeed.swift in Sources */,
+				0DC308231F127E2300200497 /* DataFromBundleFile.swift in Sources */,
 				0DC3082A1F12ABE800200497 /* URLImageResolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,9 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA0CBC21F1430FC0035BEE5 /* testVideoJSONFeed.swift in Sources */,
+				0DA0CBC21F1430FC0035BEE5 /* test_DataFromBundleFile.swift in Sources */,
 				0DC3082C1F12AC1A00200497 /* ImageURLDetailsTests.swift in Sources */,
-				0DA0CBC31F1430FC0035BEE5 /* testVideoJSONParser.swift in Sources */,
+				0DA0CBC31F1430FC0035BEE5 /* test_VideoJSONParser.swift in Sources */,
 				0DC3082E1F12ADF000200497 /* URLImageResoltionTests.swift in Sources */,
 				0DC308261F128A7700200497 /* VideoDataItemTest.swift in Sources */,
 			);
@@ -449,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
@@ -465,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
 				INFOPLIST_FILE = VideoBrowserDataSourcesTests/Info.plist;
@@ -645,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
@@ -662,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EF4UQ57PCN;
